@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T10:39:14.811Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ubml04CqPw4euMSgG8fh" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T11:40:24.067Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="qKQqCP3BLHB0YaITf_qU" version="14.9.3" type="github">
   <diagram id="KWg38-9EEycz5ul8E4M4" name="Page-1">
     <mxGraphModel dx="1334" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -109,6 +109,14 @@
         <mxCell id="cGxExq_PBEUVkTPFgHlX-43" value="using" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="870" y="380" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cGxExq_PBEUVkTPFgHlX-44" target="cGxExq_PBEUVkTPFgHlX-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="690" />
+              <mxPoint x="610" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cGxExq_PBEUVkTPFgHlX-44" value="sentiments Analysis&lt;br&gt;&amp;amp;&lt;br&gt;Influence Score" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -213,11 +221,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGxExq_PBEUVkTPFgHlX-88" target="cGxExq_PBEUVkTPFgHlX-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=0.583;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cGxExq_PBEUVkTPFgHlX-88" target="cGxExq_PBEUVkTPFgHlX-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="680" y="673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cGxExq_PBEUVkTPFgHlX-88" value="Stock Market Predictions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cGxExq_PBEUVkTPFgHlX-89" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Diagram&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-90" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cGxExq_PBEUVkTPFgHlX-44" target="cGxExq_PBEUVkTPFgHlX-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="500" as="sourcePoint" />
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-91" value="ML Models" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="860" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-93" value="Using" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="570" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-94" value="data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="800" y="620" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-96" value="store predictins" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGxExq_PBEUVkTPFgHlX-97" target="cGxExq_PBEUVkTPFgHlX-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-97" value="Live Sentiments Analysis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-100" value="HTM/Vader" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="800" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cGxExq_PBEUVkTPFgHlX-102" value="Using" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="750" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
